@@ -64,3 +64,5 @@ kiknet_1m_borehole_vsvp_data.shape
 
 kiknet_1m_borehole_vsvp_data[0]['File Name']  
 kiknet_1m_borehole_vsvp_data[0]['Vs_values']
+
+np.save("kiknet_1m_borehole_vsvp_data.npy",kiknet_1m_borehole_vsvp_data)
